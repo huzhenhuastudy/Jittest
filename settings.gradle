@@ -1,0 +1,3 @@
+rootProject.name='Jittest'
+include ':app'
+include ':mylibrary'
