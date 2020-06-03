@@ -12,6 +12,6 @@ class LibActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lib)
         Glide.with(this).load(R.mipmap.video_play).into(lib_img)
-        test.text = UdeskUtils.getAppName(this)
+        test.text = UdeskUtils.getAppversion(this).toString()
     }
 }
