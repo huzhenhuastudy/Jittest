@@ -1,3 +1,4 @@
 rootProject.name='Jittest'
 include ':app'
 include ':mylibrary'
+include ':mylibrary2'
