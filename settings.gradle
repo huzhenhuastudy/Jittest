@@ -1,2 +1,2 @@
 rootProject.name='Jittest'
-include ':app', ':UdeskSDKUI'
+include ':app', ':UdeskSDKUI','udeskvideo'
