@@ -1,6 +1,6 @@
-//apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.android.library'
-//group='com.github.udesk'
+group='com.github.udesk'
 android {
     compileSdkVersion 29
     buildToolsVersion '29.0.2'
