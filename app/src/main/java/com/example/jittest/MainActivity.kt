@@ -2,6 +2,7 @@ package com.example.jittest
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import cn.udesk.UdeskUtil
 import kotlinx.android.synthetic.main.activity_main.*
 import udesk.core.utils.UdeskUtils
 
@@ -12,5 +13,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         tv_button.text = UdeskUtils.getAppName(this)
+        UdeskUtil.loadImage(this,img,"")
     }
 }
